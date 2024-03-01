@@ -1,0 +1,33 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding : 10px;
+    align-items: center;
+    width: 100vh;
+}
+
+.alignment{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 104px;
+    height: 86px;
+    margin: 0 !important;
+    top: 0;
+    object-fit: cover;
+  }
+.largepage{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}

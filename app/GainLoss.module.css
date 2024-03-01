@@ -1,0 +1,17 @@
+.GainLosstable{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.gain{
+    justify-content: center;
+    font-size: x-large;
+    margin: 10vh;
+}
+
+.loss{
+    justify-content: center;
+    font-size: x-large;
+    margin: 10vh;
+}

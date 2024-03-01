@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+}
+
+.whyans{
+    font-size: medium;
+    padding: 10px;
+}
+
+.whyUsSection{
+    display: flex;
+    padding: 20px;
+    
+}
+
+.logo {
+    width: 100px;
+    height: 86px;
+  }
+
+.secAns{
+    padding: 3vh;
+}
