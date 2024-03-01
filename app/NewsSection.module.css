@@ -27,10 +27,14 @@
     padding: 10px;
 }
 
-.newC{
+.newsC{
     display:flex;
+    align-items: center;
+    padding: 2vh;
 }
+
 .p{
     display: inline;
     align-self:center;
+    background-color: brown;
 }
