@@ -24,7 +24,8 @@
 
 .newshere{
     display: flex;
-    padding: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 .newsC{
@@ -37,4 +38,9 @@
     display: inline;
     align-self:center;
     background-color: brown;
+}
+.h1_class{
+    font-weight: bold;
+    font-size: xx-large;
+    
 }

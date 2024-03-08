@@ -3,8 +3,8 @@ import styles from './WhyUs.module.css'
 
 const WhyUs = () => {
   return (
-    <div className={styles.container}>
-        <h2>
+    <div className={styles.container}>  
+        <h2 className='h2_class'>
             Why Choose Nerd Trader?
         </h2>
         <div className={styles.whyans}>
