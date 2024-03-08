@@ -9,9 +9,9 @@ import { MdOutlinePrivacyTip,MdOutlineSecurity ,MdHelpOutline} from "react-icons
 function FooterSection() {
     return (
         <div className={styles.footer}>
-            <div className={styles.alignMent}><p><FiInfo />About</p> <p><HiOutlineSupport />Support </p><p><RiAdvertisementLine />Advertise</p> <p><TbBrandBlogger />Blog</p> <p>Terms</p> </div>
-            <div className={styles.alignMent}><p><MdOutlinePrivacyTip />Privacy</p> <p><MdOutlineSecurity />Security </p><p>Status</p> <p><MdHelpOutline />Help</p></div>
-            <div className={styles.alignMent}><RiTwitterXLine />  <RiFacebookCircleLine />  <RiInstagramLine />  <RiYoutubeLine /> <p></p> </div>
+            <div className={styles.alignMent}><p  className={styles.icon}><FiInfo/>About</p> <p className={styles.icon}><HiOutlineSupport />Support </p><p className={styles.icon}><RiAdvertisementLine />Advertise</p> <p className={styles.icon}><TbBrandBlogger />Blog</p> <p className={styles.icon}>Terms</p> </div>
+            <div className={styles.alignMent}><p className={styles.icon}><MdOutlinePrivacyTip />Privacy</p> <p className={styles.icon}><MdOutlineSecurity />Security </p><p className={styles.icon}>Status</p> <p className={styles.icon}><MdHelpOutline />Help</p></div>
+            <div className={styles.alignMent1}><RiTwitterXLine  />  <RiFacebookCircleLine />  <RiInstagramLine />  <RiYoutubeLine /> </div>
             <p className={styles.icon}>© 2024 Nerd Trader, All Rights Reserved.</p>
         </div>
     )
