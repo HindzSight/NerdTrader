@@ -5,7 +5,7 @@ import {Divider } from '@chakra-ui/react'
 const WhyUs = () => {
   return (
     <div className={styles.container}>  
-        <h2 className='h2_class'>
+        <h2 className={styles.h2_class}>
             Why Choose Nerd Trader?
         </h2>
         <div className={styles.whyans}>
@@ -21,6 +21,7 @@ const WhyUs = () => {
                     src="/logo.png"
                     />
                     <p className={styles.p}>Lorem ipsum dolor sit amet consectetur. </p>
+                   
                 </div>
                 <div>2
                 <img
