@@ -15,3 +15,13 @@
     font-size: x-large;
     margin: 10vh;
 }
+
+.icon{
+    display:inline;
+}
+
+.heading{
+    font-size: 6vh;
+    margin: 6vh;
+
+}
