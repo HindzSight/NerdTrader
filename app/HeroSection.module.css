@@ -2,15 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size:x-large;
+    font-weight:bold;
 }
 
 .search{
-    display: flex;
-    justify-content: center;
     margin: 10px;
     padding : 10px;
-    align-items: center;
     width: 100vh;
+    border-radius: 20px;
+    border: dashed;
 }
 
 .alignment{
@@ -26,8 +27,14 @@
     top: 0;
     object-fit: cover;
   }
+
 .largepage{
     height: 100vh;
-    align-items: center;
-    justify-content: center;
+}
+.bookvalue{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:200;
+    padding : 5vh;
 }
