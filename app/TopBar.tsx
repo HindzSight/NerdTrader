@@ -1,5 +1,17 @@
 import React, { useState } from 'react';
+import { IoSettingsOutline } from "react-icons/io5";
+import { FaRegBell } from "react-icons/fa";
 import styles from './TopBar.module.css';
+import { FaUserCircle } from "react-icons/fa";
+import {
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuGroup,
+  MenuDivider,
+  Button
+} from '@chakra-ui/react'
 
 interface TopBarProps {
   search: string;
@@ -10,13 +22,16 @@ const TopBar: React.FC<TopBarProps> = ({ search, onSearchChange }) => {
   return (
     <div className={styles.topBar}>
       <div className={styles.frame}>
-      <img
+
+        <div className={styles.nerdTrader}>
+        <img
         className={styles.logo}
         loading="lazy"
         alt=""
         src="/logo.png"
-      />
-        <div className={styles.nerdTrader}>Nerd Trader</div>
+        />
+          Nerd Trader</div>
+        <div>BULB</div>
         <div className={styles.links}>
           <div className={styles.link}>News</div>
           <div className={styles.link}>Stocks</div>
@@ -32,11 +47,19 @@ const TopBar: React.FC<TopBarProps> = ({ search, onSearchChange }) => {
             />
           </div>
           <div className={styles.userSettings}>
-            <button
-            name='Notif'>Notif</button>
-            <button
-            name='Settings'>Settings</button>
-            <button className={styles.link}>LoggedUser</button>
+            <button name='Notification'><FaRegBell /></button>
+            <button name='Settings'><IoSettingsOutline /></button>
+            <Menu>
+              <MenuButton as={Button} colorScheme='yellow'>
+                <FaUserCircle />
+              </MenuButton>
+              <MenuList>
+                <MenuGroup title='Account'>
+                  <MenuItem>My Account</MenuItem>
+                  <MenuItem>Payments </MenuItem>
+                </MenuGroup>
+              </MenuList>
+            </Menu>
           </div>
         </div>
       </div>
