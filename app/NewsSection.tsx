@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './NewsSection.module.css';
-import { Card, CardHeader, CardBody, CardFooter, Stack, Button, Image, Heading, Text } from '@chakra-ui/react'
+import { Card,  CardBody,  Stack, Image, Heading, Text,Divider } from '@chakra-ui/react'
 
 const NewsSection = () => {
     return (
@@ -221,6 +221,7 @@ const NewsSection = () => {
                     </div>
                 </div>
             </div>
+        <Divider colorScheme= "blackAlpha"/>
 
 
 

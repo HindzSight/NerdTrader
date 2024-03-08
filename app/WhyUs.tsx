@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './WhyUs.module.css'
+import {Divider } from '@chakra-ui/react'
 
 const WhyUs = () => {
   return (
@@ -72,6 +73,7 @@ const WhyUs = () => {
                 </div>
             </div>
         </div>
+        <Divider colorScheme= "blackAlpha"/>
     </div>
   )
 }

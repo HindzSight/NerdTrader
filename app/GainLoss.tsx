@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from './GainLoss.module.css';
 import { TbTriangleInvertedFilled, TbTriangleFilled } from "react-icons/tb";
+import {Divider } from '@chakra-ui/react'
 
 
 const GainLoss = () => {
@@ -50,6 +51,7 @@ const GainLoss = () => {
             </div>
           </div>
         </div>
+        <Divider />
     </div>
   );
 };

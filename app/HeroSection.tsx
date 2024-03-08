@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './HeroSection.module.css';
+import {Divider } from '@chakra-ui/react'
 
 interface HeroSectionProps {
   search: string;
@@ -25,6 +26,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ search, onSearchChange }) => 
         value={search}
         onChange={onSearchChange}
         />
+        <Divider />
     </div>
   );
 };
