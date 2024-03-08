@@ -85,15 +85,4 @@
   justify-content: center;
 }
 
-.footer {
-  width: 100%;
-  padding: 16px 0;
-  border-top: 1px solid #ccc;
-  display: flex;
-  justify-content: center;
-}
 
-.copyright {
-  font-size: 16px;
-  font-weight: 400;
-}

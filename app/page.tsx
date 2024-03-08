@@ -6,8 +6,9 @@ import HeroSection from './HeroSection';
 import GainLoss from './GainLoss';
 import NewsSection from './NewsSection';
 import WhyUs from './WhyUs';
+import FooterSection from './FooterSection'
 import { ChakraProvider } from '@chakra-ui/react';
-import Faq from './faq';
+import Faq from './Faq';
 
 export default function Home() {
   const [search, setSearch] = useState('');
@@ -26,8 +27,9 @@ export default function Home() {
       <WhyUs />
       <Faq />
 
-      <footer className={styles.footer}>
-        <p className={styles.copyright}>© 2023 Nerd Trader, Inc.</p>
+      <footer>
+        <FooterSection />
+        
       </footer>
     </div>
     </ChakraProvider>
