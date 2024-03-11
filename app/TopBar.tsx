@@ -31,7 +31,14 @@ const TopBar: React.FC<TopBarProps> = ({ search, onSearchChange }) => {
         src="/logo.png"
         />
           Nerd Trader</div>
-        <div>BULB</div>
+        <div> 
+        <Button leftIcon={<img
+        className={styles.logo}
+        loading="lazy"
+        alt=""
+        src="/bulb.png"
+        />} colorScheme='whitealpha' variant='solid' size='sm' className={styles.bulb}>
+      </Button></div>
         <div className={styles.links}>
           <div className={styles.link}>News</div>
           <div className={styles.link}>Stocks</div>

@@ -6,9 +6,9 @@ import HeroSection from './HeroSection';
 import GainLoss from './GainLoss';
 import NewsSection from './NewsSection';
 import WhyUs from './WhyUs';
+import Faq from './Faq';
 import FooterSection from './FooterSection'
 import { ChakraProvider } from '@chakra-ui/react';
-import Faq from './Faq';
 
 export default function Home() {
   const [search, setSearch] = useState('');
