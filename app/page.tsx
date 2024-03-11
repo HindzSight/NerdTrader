@@ -6,7 +6,7 @@ import HeroSection from './HeroSection';
 import GainLoss from './GainLoss';
 import NewsSection from './NewsSection';
 import WhyUs from './WhyUs';
-import Faq from './Faq';
+import Faq from './faq';
 import FooterSection from './FooterSection'
 import { ChakraProvider } from '@chakra-ui/react';
 
